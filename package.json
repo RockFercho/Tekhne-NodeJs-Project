@@ -1,0 +1,23 @@
+{
+  "name": "tekhne-nodejs-project",
+  "version": "1.0.0",
+  "description": "Project about reservation of meeting times for users",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RockFercho/Tekhne-NodeJs-Project.git"
+  },
+  "author": "Fernando Hurtado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RockFercho/Tekhne-NodeJs-Project/issues"
+  },
+  "homepage": "https://github.com/RockFercho/Tekhne-NodeJs-Project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
