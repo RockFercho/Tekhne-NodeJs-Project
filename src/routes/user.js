@@ -7,6 +7,9 @@ let router = express.Router();
 
 router
   .get('/', userController.getUsers)
-  .post('/', userController.saveUser);
+  .get('/:id', userController.getById)
+  .post('/', userController.saveUser)
+  .delete('/:id', userController.deleteUser)
+  .put('/:id', userController.putUser);
 
 module.exports = router;

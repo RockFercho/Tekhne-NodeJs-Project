@@ -10,7 +10,22 @@ function getAll() {
   return userDB.getAll();
 }
 
+function getById(id) {
+  return userDB.getById(id);
+}
+
+function put(id, data) {
+  return userDB.put(id, data);
+}
+
+function remove(id) {
+  return userDB.remove(id);
+}
+
 module.exports = {
   save,
-  getAll
+  getAll,
+  getById,
+  put,
+  remove
 };

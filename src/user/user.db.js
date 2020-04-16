@@ -20,7 +20,21 @@ async function getAll() {
   return userArray;
 }
 
+function getById(id) {
+  return user.findById(id);
+}
+
+function put(id, data) {
+  return user.replaceOne({ _id: id }, data);
+}
+
+function remove(id) {
+  return user.findOneAndDelete({_id: id });
+}
 module.exports = {
   save,
-  getAll
+  getAll,
+  getById,
+  put,
+  remove
 };
