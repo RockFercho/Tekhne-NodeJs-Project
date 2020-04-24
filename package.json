@@ -1,0 +1,36 @@
+{
+  "name": "tekhne-nodejs-project",
+  "version": "1.0.0",
+  "description": "Project about reservation of meeting times for users",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "grunt build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RockFercho/Tekhne-NodeJs-Project.git"
+  },
+  "author": "Fernando Hurtado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RockFercho/Tekhne-NodeJs-Project/issues"
+  },
+  "homepage": "https://github.com/RockFercho/Tekhne-NodeJs-Project#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.9.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.2.0",
+    "grunt": "^1.0.3",
+    "grunt-eslint": "^21.0.0",
+    "load-grunt-tasks": "^4.0.0"
+  }
+}
